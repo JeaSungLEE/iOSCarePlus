@@ -21,6 +21,9 @@
 		4D7C326F2580E7A0001BFA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C326D2580E7A0001BFA36 /* Main.storyboard */; };
 		4D7C32712580E7A2001BFA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C32702580E7A2001BFA36 /* Assets.xcassets */; };
 		4D7C32742580E7A2001BFA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C32722580E7A2001BFA36 /* LaunchScreen.storyboard */; };
+		4DF8467325A5D5DC00031F53 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF8467225A5D5DC00031F53 /* Navigation.storyboard */; };
+		4DF8467625A5DF8C00031F53 /* SelectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8467525A5DF8C00031F53 /* SelectableButton.swift */; };
+		4DF8467925A5DFF600031F53 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF8467825A5DFF600031F53 /* Colors.xcassets */; };
 		73ED3EE853BB032DC3440691 /* Pods_iOSCarePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFC766B46426EF3BCA90C36 /* Pods_iOSCarePlus.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		4D7C32702580E7A2001BFA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7C32732580E7A2001BFA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7C32752580E7A2001BFA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF8467225A5D5DC00031F53 /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		4DF8467525A5DF8C00031F53 /* SelectableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButton.swift; sourceTree = "<group>"; };
+		4DF8467825A5DFF600031F53 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DB7E9236798AA90C81C5327C /* Pods-iOSCarePlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCarePlus.debug.xcconfig"; path = "Target Support Files/Pods-iOSCarePlus/Pods-iOSCarePlus.debug.xcconfig"; sourceTree = "<group>"; };
 		E152A9C3403B122EDDE4D00F /* Pods-iOSCarePlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCarePlus.release.xcconfig"; path = "Target Support Files/Pods-iOSCarePlus/Pods-iOSCarePlus.release.xcconfig"; sourceTree = "<group>"; };
 		FCFC766B46426EF3BCA90C36 /* Pods_iOSCarePlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSCarePlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +78,7 @@
 				4D2333B0258A1F6900961BE4 /* GameListViewController.swift */,
 				4D7698C625935DA30057D80B /* Model */,
 				4D7698C425935D910057D80B /* Cell */,
+				4DF8467525A5DF8C00031F53 /* SelectableButton.swift */,
 			);
 			path = GameList;
 			sourceTree = "<group>";
@@ -124,6 +131,8 @@
 				4D7C32722580E7A2001BFA36 /* LaunchScreen.storyboard */,
 				4D7C32752580E7A2001BFA36 /* Info.plist */,
 				4D7698C125935D610057D80B /* GameList */,
+				4DF8467225A5D5DC00031F53 /* Navigation.storyboard */,
+				4DF8467825A5DFF600031F53 /* Colors.xcassets */,
 			);
 			path = iOSCarePlus;
 			sourceTree = "<group>";
@@ -205,6 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF8467925A5DFF600031F53 /* Colors.xcassets in Resources */,
+				4DF8467325A5D5DC00031F53 /* Navigation.storyboard in Resources */,
 				4D7C32742580E7A2001BFA36 /* LaunchScreen.storyboard in Resources */,
 				4D7C32712580E7A2001BFA36 /* Assets.xcassets in Resources */,
 				4D7C326F2580E7A0001BFA36 /* Main.storyboard in Resources */,
@@ -281,6 +292,7 @@
 				4D2333B7258A248300961BE4 /* GameItemTableViewCell.swift in Sources */,
 				4D7698CD259372F50057D80B /* IndicatorCell.swift in Sources */,
 				4D7698BF25935D2A0057D80B /* GameItemCodeTableViewCell.swift in Sources */,
+				4DF8467625A5DF8C00031F53 /* SelectableButton.swift in Sources */,
 				4D2333B1258A1F6900961BE4 /* GameListViewController.swift in Sources */,
 				4D2333BF258A2E9C00961BE4 /* NewGameResponse.swift in Sources */,
 				4D7C326C2580E7A0001BFA36 /* ViewController.swift in Sources */,

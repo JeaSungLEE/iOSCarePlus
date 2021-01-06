@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet private weak var logoViewTopConstraint: NSLayoutConstraint!
     @IBOutlet private weak var backgroundImageViewLeadingConstraint: NSLayoutConstraint!
     
+    @IBAction private func logoTapAction(_ sender: UITapGestureRecognizer) {
+        blinkLogoAnimation()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +28,6 @@ class ViewController: UIViewController {
         
         appearLogoViewAnimation { [weak self] in
             self?.slideBackgroundImageAnimation()
-            self?.blinkLogoAnimation()
         }
     }
     
@@ -53,7 +55,7 @@ class ViewController: UIViewController {
     }
     
     private func blinkLogoAnimation() {
-        UIView.animate(withDuration: 1, delay: 0, options: [.repeat, .autoreverse]) { [weak self] in
+        UIView.animate(withDuration: 1, delay: 0, options: [.autoreverse]) { [weak self] in
             self?.logoView.alpha = 0
         }
     }
