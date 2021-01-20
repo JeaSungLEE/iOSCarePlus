@@ -15,11 +15,26 @@ class SelectableButton: UIButton {
         setTitleColor(UIColor(named: "VeryLightPink"), for: .normal)
         tintColor = .clear
     }
-//    func select(_ value: Bool) {
-//        if value {
-//            setTitleColor(UIColor.init(named: "black"), for: .normal)
-//        } else {
-//            setTitleColor(UIColor.init(named: "VeryLightPink"), for: .normal)
+}
+
+//class MyStyles: NSObject {
+//    static func fontForStyle(style: String) -> UIFont {
+//        switch style {
+//        case "p":
+//            return UIFont.systemFont(ofSize: 18)
+//        case "h1":
+//            return UIFont.boldSystemFont(ofSize: 36)
+//        case "h2":
+//            return UIFont.boldSystemFont(ofSize: 24)
+//        default:
+//            return MyStyle.fontForStyle("p")
 //        }
 //    }
-}
+//}
+//
+//@IBDesignable
+//class MyLabel: UILabel {
+//    @IBInspectable var style: String = "p" {
+//        didSet { self.font = MyStyle.fontForStyle(style) }
+//    }
+//}
